@@ -1,0 +1,145 @@
+#carousel {
+    height: 400px;
+    /* Adjust height as needed */
+    background-position: center;
+    background-size: cover;
+    
+  }
+  
+  
+  .pro-status {
+    font-weight: 500;
+    font-size: 22px;
+    animation: alternate-reverse;
+    opacity: 1;
+    /* Initially hide the text */
+    animation: sni 2s;
+    color: #ffc200;
+  }
+  #rM{
+    margin-top: 100px;
+  }
+  
+  
+  
+  
+  
+  @keyframes sni {
+    from {
+      transform: translateX(-100%);
+      /* Start from 100% off-screen to the left */
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      /* Animate to the original position */
+      opacity: 1;
+    }
+  }
+  #btnHvn{
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #ffc200;
+    border: 1px solid #ffc200;
+  }
+  
+  
+  #btnHvn:hover{
+    background-color: #135bbf;
+    border: 1px solid #135bbf;
+  }
+  
+  
+  .mtb40 {
+    opacity: 1;
+    /* Initially hide the text */
+    font-size: 50px;
+    animation: ani 2s ;
+  }
+  .mtb41{
+    margin-right: -250px;
+    margin-top: -45px;
+    animation: oni 2s ;
+  }
+  .nxtpara{
+    font-size: 15px;
+  }
+  
+  
+  
+  @keyframes ani {
+    from {
+      transform: translateX(-100%);
+      /* Start from 100% off-screen to the left */
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      /* Animate to the original position */
+      opacity: 1;
+    }
+  }
+  @keyframes oni {
+    from {
+      transform: translateX(100%);
+      /* Start from 100% off-screen to the left */
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateX(0);
+      /* Animate to the original position */
+      opacity: 1;
+    }
+  }
+  
+  
+  @media (min-width:1223px) and (max-width:1500px) {
+    .mtb41{
+      margin-right: -41px;
+      margin-top: -45px;
+      animation: oni 2s ;
+    }
+    
+  }
+  
+  /* Media query for screens less than 600px */
+  
+  @media (min-width:1040px) and (max-width: 1222px) {
+    #carousel {
+      height: 600px;
+      /* Adjust height as needed */
+      background-position: center;
+      background-size: cover;
+    }
+    #imgBgCS{
+      margin-top: 70px;
+      margin-right: 190px;
+      animation: oni 2s ;
+    }
+    #rM{
+      margin-top: 0;
+    }
+  }
+  
+  @media (max-width: 1039px) {
+    #carousel {
+      height: 600px;
+      /* Adjust height as needed */
+      background-position: center;
+      background-size: cover;
+    }
+    .mtb41 {
+      display: none;
+      /* Adjust height as needed */
+      background-position: center;
+      background-size: cover;
+      animation: none;
+    }
+    #rM{
+      margin-top: 0;
+    }
+  }

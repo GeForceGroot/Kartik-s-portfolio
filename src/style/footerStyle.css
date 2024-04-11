@@ -1,0 +1,52 @@
+.custom-shape-divider-top-1711964128 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+#portfolio{
+    background-color: #ffc200;
+    border-radius: 50px;
+    border: 1px solid #ffc200;
+}
+#portfolio:hover{
+    background-color: #135bbf;
+    border-radius: 50px;
+    border: 1px solid #135bbf;
+}
+
+#unOrderFoot{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 65px;
+}
+
+
+@media (max-width: 750px) {
+    #portfolio{
+        display: none;
+    }
+}
+
+@media (min-width:'490px') and (max-width:550px) {
+    #foornabvar{
+        margin-left: -40px;
+    }
+}
+
+@media (max-width: 489px) {
+    #foornabvar{
+        display: ruby-text;
+    }
+    #unOrderFoot{
+        display: ruby-text;
+        text-align: center;
+        margin-left: -33px;
+    }
+    footer hr {
+        margin-left: -22px;
+    }
+}
